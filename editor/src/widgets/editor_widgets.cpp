@@ -10,7 +10,7 @@
 
 namespace beet {
 EditorWidgets::EditorWidgets(Engine& engine) : m_engine(engine) {
-    add_widget(std::make_shared<DemoWidget>("Demo widget"));
+    // add_widget(std::make_shared<DemoWidget>("Demo widget"));
     add_widget(std::make_shared<HierarchyWidget>("Hierarchy widget", *this));
     add_widget(std::make_shared<InspectorWidget>("Inspector Widget", *this));
     add_widget(std::make_shared<FramebufferWidget>("Framebuffer Widget", *this));

@@ -18,8 +18,8 @@ Editor::Editor() {
     }
     {
         auto cubeObj = m_scene->create_game_object("Weighted Blended - stanford dragon");
-        cubeObj.get_component<components::Transform>().set_position(glm::vec3(0, -1.5, 0));
-        cubeObj.get_component<components::Transform>().set_scale(glm::vec3(1));
+        cubeObj.get_component<components::Transform>().set_position(glm::vec3(0, -1.7, 0));
+        cubeObj.get_component<components::Transform>().set_scale(glm::vec3(2.5));
         cubeObj.get_component<components::Transform>().set_rotation_euler(glm::vec3(0, 90, 0));
 
         cubeObj.add_component<components::InstanceMesh>("dragon.fbx");
